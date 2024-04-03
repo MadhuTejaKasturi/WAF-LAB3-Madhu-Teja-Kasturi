@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0;
+    padding: 18px 0;
+}
+
+form {
+    padding: 45px;
+    background-color: lightgreen;
+    border-radius: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+label {
+    font-size: large;
+}
+
+input[type="text"],
+input[type="range"] {
+    width: 100%;
+    padding: 9px;
+    margin: 5px 0;
+    border: 2px solid silver;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:disabled,
+input[type="range"]:disabled {
+    background-color: white;
+    color: silver;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    form {
+        max-width: 100%;
+    }
+}
